@@ -5,5 +5,5 @@ abstract class Shape implements Print {
         this.name = name;
     }
 
-    public abstract void print();
+    public abstract String getName();
 }

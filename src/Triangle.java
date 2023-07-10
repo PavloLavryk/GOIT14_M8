@@ -4,7 +4,8 @@ class Triangle extends Shape {
     }
 
     @Override
-    public void print() {
+    public String getName() {
         System.out.println("Shape name: " + name);
+        return null;
     }
 }
